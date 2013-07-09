@@ -1,0 +1,22 @@
+{
+  "name": "videofortheweb",
+  "version": "0.0.1",
+  "private": true,
+  
+  "dependencies": {
+    "express": "3.0.4",
+    "express-partials" : "~0.0.6",
+    "ejs": "*",
+    "prettyjson" : "*"
+  },
+
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  
+  "scripts": {
+    "start": "node app"
+  }
+
+}
