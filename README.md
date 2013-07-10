@@ -1,3 +1,5 @@
+http://videofortheweb.org
+
 Video For The Web
 ITP - Summer Session II 2013
 Tues & Thurs 6:30 - 9:25pm
