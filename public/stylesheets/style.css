@@ -12,12 +12,12 @@ body {
 	color: white;
 	font-size: 12pt;
 	font-family: "Helvetica", "Arial", "Lucida Grande", "Geneva",  sans-serif;
-	background-color: rgb(2,2,2);
+	background-color: rgb(25,25,25);
 }
 
 #wrapper {
 	max-width: 100%;
-	margin: 20px auto;
+	/*margin: 10px auto;*/
 	height: 100%;
 }
 
@@ -29,14 +29,18 @@ a {
 /***********HEADER***********/
 #header{
 	position: fixed;
-	margin-left: 10px;
-	z-index: 1000;
+	width:100%;
+	z-index: 10000;
+	background-color: rgb(0,0,0);
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
 
 .navLink{
 	color: rgb(200, 200, 200);
 	padding-right: 10px;
+	padding-left: 20px;
 }
 
 .navLink:hover{
@@ -48,9 +52,10 @@ a {
 /***********MAIN***********/
 #main{
 	position: absolute;
-	margin-top: 40px;
-	margin-left: 20px;
+	width: 100%;
+	/*margin: 40px 20px 0 20px;*/
 }
+
 
 .group{
 	margin: 30px 20px;
@@ -69,6 +74,39 @@ a {
 
 .pageLink:hover{
 	color: rgb(5,5,5);
+	font-weight: bold;
 	background-color: rgb(200, 200, 200);
 	border-style: none;
+}
+
+
+/***********MAIN INDEX***********/
+
+
+.videoContainer{
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#embedVideo{
+	z-index: 1;
+	width: 100%;
+/*	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(50,50,200);*/
+}
+
+#mainBody{
+	z-index: 100;
+
+}
+
+
+/***********COURSE INDEX***********/
+.courseMain{
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 50px;
 }
