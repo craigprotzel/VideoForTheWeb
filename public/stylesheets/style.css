@@ -123,36 +123,44 @@ a {
 
 
 .textBig{
-	font-size: 12pt;
+	font-size: 14pt;
 	/*font-weight: bold;*/
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .textMed{
-	font-size: 11pt;
+	font-size: 12pt;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .textBold{
 	font-weight: bolder;
-	font-size: 10pt;
+	font-size: 11pt;
+}
+
+.textBolder{
+	font-weight: bolder;
+	font-size: 12pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .textInfo{
 	margin-top: 12px;
 	margin-bottom: 12px;
-	font-size: 10pt;
+	font-size: 11pt;
 }
 
 .textButton{
-	font-size: 10pt;
+	font-size: 11pt;
 	padding: 4px 8px 4px 8px;
 	color: white;
 	background-color: rgb(125,125,125);
 	border-style: none;
 	border-radius: 2px;
+	line-height: 20px;
 }
 
 .textButton:hover{
@@ -161,11 +169,11 @@ a {
 
 .listTitle{
 	margin-top: 12px;
-	font-size: 10pt;
+	font-size: 11pt;
 }
 
 .listInfo{
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-top: 12px;
 	margin-bottom: 10px;
 	margin-left: 20px;
@@ -173,7 +181,7 @@ a {
 }
 
 .listInfoBold{
-	font-size: 10pt;
+	font-size: 11pt;
 	font-weight: bolder;
 	margin-top: 12px;
 	margin-bottom: 10px;
@@ -182,13 +190,13 @@ a {
 }
 
 .itemTitle{
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-top: 12px;
 	margin-bottom: 2px;
 }
 
 .itemInfo{
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
@@ -214,9 +222,6 @@ a {
 #courseInfo6{
 	display: none;
 }
-#courseImage6{
-	display: none;
-}
 
 .classLink{
 	color: rgb(125, 125, 125);
@@ -227,14 +232,14 @@ a {
 }
 
 .classInfo{
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	margin-left: 20px;
 }
 
 .classListInfo{
-	font-size: 10pt;
+	font-size: 11pt;
 	margin-top: 6px;
 	margin-bottom: 6px;
 	margin-left: 40px;
