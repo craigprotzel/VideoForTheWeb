@@ -12,9 +12,9 @@ module.exports = function(app) {
 
 
 	//***** COURSE ROUTES *****//
-	app.get('/course', courseRoute.index);
-	app.get('/resources', courseRoute.resources);
+	app.get('/classes', courseRoute.index);
+	app.get('/assignments', courseRoute.assignments);
 	app.get('/code', courseRoute.code);
-
+	app.get('/resources', courseRoute.resources);
 };
 

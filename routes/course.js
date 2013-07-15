@@ -8,6 +8,12 @@ module.exports = {
 		);
 	},
 
+	assignments: function(req, res){
+		res.render('Course/assignments.html',
+			{title:'Video For The Web'}
+		);
+	},
+
 	code: function(req, res){
 		res.render('Course/code.html',
 			{title:'Video For The Web'}

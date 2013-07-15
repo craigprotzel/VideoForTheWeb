@@ -11,5 +11,17 @@ var loadVids = [
 	'<iframe src="http://player.vimeo.com/video/68765934?byline=0&amp;portrait=0&amp;color=c7c7c7" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
 	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/VF9-sEbqDvU?rel=0" frameborder="0" allowfullscreen></iframe>',
 	'<iframe src="http://player.vimeo.com/video/69445362?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="500" height="270" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
-	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/4hQ5xz_5to4?rel=0" frameborder="0" allowfullscreen></iframe>'
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/4hQ5xz_5to4?rel=0" frameborder="0" allowfullscreen></iframe>',
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/cfoLYTKObiU?rel=0" frameborder="0" allowfullscreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/64686559?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/60923856?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/23593862?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="275" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/30168074?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/46233381?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/43254602?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/27505192?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/41861212?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/37955460?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/36239715?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/34423744?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="283" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
 ];

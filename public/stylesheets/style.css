@@ -32,7 +32,7 @@ a {
 	position: fixed;
 	width:100%;
 	z-index: 10000;
-/*	background-color: rgb(100,100,100);*/
+	background-color: rgba(255,255,255, 0.9);
 	padding-top: 10px;
 	padding-bottom: 10px;
 
@@ -83,6 +83,11 @@ a {
 
 /***********MAIN INDEX***********/
 
+.topBody{
+	z-index: 100;
+	margin-top: 65px;
+	margin-left: 3%;
+}
 
 .videoContainer{
 	width: 100%;
@@ -93,15 +98,9 @@ a {
 
 .embedVideo{
 	z-index: 1;
-	width: 30%;
+	width: 31%;
 	float: left;
 	padding-right: 1%;
-}
-
-.topBody{
-	z-index: 100;
-	margin-top: 65px;
-	margin-left: 3%;
 }
 
 .centerBody{
@@ -112,22 +111,153 @@ a {
 	margin-right: 3%;
 }
 
-.textInfo{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 9pt;
+.textBig{
+	font-size: 11pt;
+	/*font-weight: bold;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.textMed{
+	font-size: 10pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .textBold{
 	font-weight: bolder;
+	font-size: 9pt;
 }
 
-
-#openingTitle{
-	width: 50%;
-	margin-left:25%;
+.textInfo{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 9pt;
 }
 
+.textButton{
+	font-size: 9pt;
+	padding: 4px 8px 4px 8px;
+	color: white;
+	background-color: rgb(125,125,125);
+	border-style: none;
+	border-radius: 2px;
+}
+
+.textButton:hover{
+	background-color: rgb(0,0,0);
+}
+
+.listTitle{
+	margin-top: 12px;
+	font-size: 9pt;
+}
+
+.listInfo{
+	font-size: 9pt;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.itemTitle{
+	font-size: 9pt;
+	margin-top: 12px;
+	margin-bottom: 2px;
+}
+
+.itemInfo{
+	font-size: 9pt;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#courseInfo0{
+	display: none;
+}
+#courseInfo1{
+	display: none;
+}
+#courseInfo2{
+	display: none;
+}
+#courseInfo3{
+	display: none;
+}
+#courseInfo4{
+	display: none;
+}
+#courseInfo5{
+	display: none;
+}
+#courseInfo6{
+	display: none;
+}
+#courseImage6{
+	display: none;
+}
+
+.classLink{
+	color: rgb(125, 125, 125);
+}
+.classLink:hover{
+	color: rgb(0, 0, 0);
+}
+
+.classInfo{
+	font-size: 9pt;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 20px;
+}
+
+.classListInfo{
+	font-size: 9pt;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 40px;
+}
+
+#classInfo0{
+	display: none;
+}
+#classInfo1{
+	display: none;
+}
+#classInfo2{
+	display: none;
+}
+#classInfo3{
+	display: none;
+}
+#classInfo4{
+	display: none;
+}
+#classInfo5{
+	display: none;
+}
+#classInfo6{
+	display: none;
+}
+#classInfo7{
+	display: none;
+}
+#classInfo8{
+	display: none;
+}
+#classInfo9{
+	display: none;
+}
+#classInfo10{
+	display: none;
+}
+#classInfo11{
+	display: none;
+}
+
+.classAssignment{
+	margin-left: 40px;
+}
 
 /***********COURSE INDEX***********/
 .courseMain{
