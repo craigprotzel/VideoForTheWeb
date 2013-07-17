@@ -24,5 +24,7 @@ var loadVids = [
 	'<iframe src="http://player.vimeo.com/video/37955460?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
 	'<iframe src="http://player.vimeo.com/video/36239715?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
 	'<iframe src="http://player.vimeo.com/video/34423744?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="283" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
-	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/S2uH9rr5FhY?rel=0" frameborder="0" allowfullscreen></iframe>'
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/S2uH9rr5FhY?rel=0" frameborder="0" allowfullscreen></iframe>',
+	'<iframe src="http://player.vimeo.com/video/18189077?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>',
+	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/KmkVWuP_sO0?rel=0" frameborder="0" allowfullscreen></iframe>'
 ];

@@ -26,7 +26,6 @@ a {
 	text-decoration: none;
 }
 
-
 /***********HEADER***********/
 #header{
 	position: fixed;
@@ -42,12 +41,12 @@ a {
 	color: rgb(125, 125, 125);
 	padding-right: 10px;
 	padding-left: 20px;
+	cursor: pointer;
 }
 
 .navLink:hover{
 	color: rgb(0, 0, 0);
 }
-
 
 
 /***********MAIN***********/
@@ -161,7 +160,8 @@ a {
 	border-style: none;
 	border-radius: 2px;
 	line-height: 20px;
-}
+	cursor: pointer;
+	}
 
 .textButton:hover{
 	background-color: rgb(0,0,0);
