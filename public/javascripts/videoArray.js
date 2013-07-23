@@ -29,5 +29,7 @@ var loadVids = [
 	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/KmkVWuP_sO0?rel=0" frameborder="0" allowfullscreen></iframe>',
 	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/jj0uxwo-4MA" frameborder="0" allowfullscreen></iframe>',
 	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/tvHRUY0tBcs?rel=0" frameborder="0" allowfullscreen></iframe>',
-	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/KrUBS9UNvnc" frameborder="0" allowfullscreen></iframe>'
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/KrUBS9UNvnc" frameborder="0" allowfullscreen></iframe>',
+	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/WfBlUQguvyw?rel=0" frameborder="0" allowfullscreen></iframe>',
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/8HSjsLVYMA4?rel=0" frameborder="0" allowfullscreen></iframe>'
 ];
