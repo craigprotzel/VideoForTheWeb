@@ -117,6 +117,7 @@ a {
 	width: 30%;
 	float: left;
 	padding-right: 1%;
+	margin-bottom: 10px;
 }
 
 
@@ -294,6 +295,7 @@ a {
 }
 
 .assignmentBox{
+	clear: left;
 	margin-bottom: 40px;
 }
 .resourcesBox{
