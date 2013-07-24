@@ -107,9 +107,7 @@ a {
 
 .videoContainerAssignments{
 	width: 100%;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 30px;
 }
 
 .embedVideo{
@@ -117,7 +115,7 @@ a {
 	width: 30%;
 	float: left;
 	padding-right: 1%;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 
@@ -296,6 +294,7 @@ a {
 
 .assignmentBox{
 	clear: left;
+	margin-top: 20px;
 	margin-bottom: 40px;
 }
 .resourcesBox{
