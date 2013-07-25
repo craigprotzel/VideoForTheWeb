@@ -300,3 +300,14 @@ a {
 .resourcesBox{
 	margin-bottom: 20px;
 }
+
+
+.codeBox{
+	margin: 20px;
+}
+
+.codeBlock{
+	margin: 10px 20px;
+	font-size: 11pt;
+	font-weight: normal;
+}
