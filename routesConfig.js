@@ -16,5 +16,10 @@ module.exports = function(app) {
 	app.get('/assignments', courseRoute.assignments);
 	app.get('/code', courseRoute.code);
 	app.get('/resources', courseRoute.resources);
+
+
+	//***** STUDENT PAGES *****//
+	app.get('/assignments/trailermashup/benjamin_rosenbaum', courseRoute.assignments_trailermahup_benjamin);
+	app.get('/assignments/trailermashup/erin_finnegan', courseRoute.assignments_trailermahup_erin);
 };
 

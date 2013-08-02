@@ -24,6 +24,20 @@ module.exports = {
 		res.render('Course/resources.html',
 			{title:'Video For The Web'}
 		);
+	},
+
+
+	//***** STUDENT PAGES *****//
+	assignments_trailermahup_benjamin: function(req, res){
+		res.render('Course/trailermashup/benjamin_rosenbaum/index.html',
+			{title:'Finding Nemo'}
+		);
+	},
+
+	assignments_trailermahup_erin: function(req, res){
+		res.render('Course/trailermashup/erin_finnegan/index.html',
+			{title:'Grinding Nemo'}
+		);
 	}
 
 };
