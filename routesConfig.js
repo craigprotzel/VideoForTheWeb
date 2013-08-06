@@ -21,5 +21,6 @@ module.exports = function(app) {
 	//***** STUDENT PAGES *****//
 	app.get('/assignments/trailermashup/benjamin_rosenbaum', courseRoute.assignments_trailermahup_benjamin);
 	app.get('/assignments/trailermashup/erin_finnegan', courseRoute.assignments_trailermahup_erin);
+	app.get('/assignments/trailermashup/lilu_wang', courseRoute.assignments_trailermahup_lilu);
 };
 

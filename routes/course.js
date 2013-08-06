@@ -38,6 +38,12 @@ module.exports = {
 		res.render('Course/trailermashup/erin_finnegan/index.html',
 			{title:'Grinding Nemo'}
 		);
+	},
+
+	assignments_trailermahup_lilu: function(req, res){
+		res.render('Course/trailermashup/lilu_wang/index.html',
+			{title:'Chasing Nemo'}
+		);
 	}
 
 };
