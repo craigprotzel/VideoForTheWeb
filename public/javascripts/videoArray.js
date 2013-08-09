@@ -94,5 +94,7 @@ var loadVids = [
 	//Puma - Hardchorus
 	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/uiskWM1hzL8?rel=0" frameborder="0" allowfullscreen></iframe>',
 	//Lady Gaga - Google Chrome
-	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/JVbXrubQpa0?rel=0" frameborder="0" allowfullscreen></iframe>'
+	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/JVbXrubQpa0?rel=0" frameborder="0" allowfullscreen></iframe>',
+	//UC Davis - Pepper Spray Four Perspectives
+	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/WO4406KJQMc?rel=0" frameborder="0" allowfullscreen></iframe>'
 ];
