@@ -96,5 +96,7 @@ var loadVids = [
 	//Lady Gaga - Google Chrome
 	'<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/JVbXrubQpa0?rel=0" frameborder="0" allowfullscreen></iframe>',
 	//UC Davis - Pepper Spray Four Perspectives
-	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/WO4406KJQMc?rel=0" frameborder="0" allowfullscreen></iframe>'
+	'<iframe width="960" height="720" src="//www.youtube-nocookie.com/embed/WO4406KJQMc?rel=0" frameborder="0" allowfullscreen></iframe>',
+	//Shiffman - ITP Lesson Recording Documnentation
+	'<iframe src="http://player.vimeo.com/video/71476071?byline=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>'
 ];
