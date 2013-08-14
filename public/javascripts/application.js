@@ -36,7 +36,6 @@ $( document ).ready( function(){
 	$('#embedVideoTwo').html(loadVids[videoValues[1]]);
 	$('#embedVideoThree').html(loadVids[videoValues[2]]);
 
-
 	//Make video row responsive
 	respondVideo();
 	$(window).resize(function() {
