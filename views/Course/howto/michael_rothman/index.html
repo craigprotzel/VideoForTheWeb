@@ -1,0 +1,114 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<style type="text/css">
+
+	.entirePage{
+		margin-top: 60px;
+		font-family: Helvetica;
+	}
+
+	/*BUTTON STYLING*/
+	.buttonContainer{
+		position: fixed;
+		margin-left: 20px;
+		z-index: 100px;
+	}
+	.button{
+		color: black;
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		width: 60px;
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+	}
+	.button:hover{
+		background-color: rgb(195,135,0);
+	}
+
+	/*VIDEO STYLING*/
+	.videoContainer{
+		clear: left;
+		margin-top: 40px;
+		width: 100%;
+	}
+	#videoTitle{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 24px;
+	}
+	#video{
+		margin: auto;
+		width: 640px;
+	}
+	#videoDescription{
+		margin-top: 20px;
+		text-align: center;
+		font-size: 16px;
+	}
+
+</style>
+
+<script type="text/javascript">
+
+	var videos = [
+		{
+			title: "How To Make S'mores On A Stick",
+			iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/WjH7-C4Uw0E" frameborder="0" allowfullscreen></iframe>',
+			description: "Welcome to <i>Baking in the Bedroom with Meredith</i>. Today, we teach you how to make S'mores on a Stick!"
+		},
+		{
+			title: "How To Make HayStacks",
+			iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/InJNg3iFvF8" frameborder="0" allowfullscreen></iframe>',
+			description: "Welcome to <i>Baking in the Bedroom with Meredith</i>. Today we teach you how to make HayStacks!"
+		},
+		{
+			title: "How To Make Rolo Sandwiches",
+			iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/5MjpCfGw7xk" frameborder="0" allowfullscreen></iframe>',
+			description: "Welcome to <i>Baking in the Bedroom with Meredith</i>. Today, we teach you how to make Rolo Sandwiches!"
+		}
+	];
+
+	$( document ).ready( function(){
+
+		$('#buttonOne').click(function(){
+			console.log("We clicked Button One!");
+			$('#videoTitle').html(videos[0].title);
+			$('#video').html(videos[0].iframe);
+			$('#videoDescription').html(videos[0].description);
+		});
+
+		$('#buttonTwo').click(function(){
+			console.log("We clicked Button Two!");
+			$('#videoTitle').html(videos[1].title);
+			$('#video').html(videos[1].iframe);
+			$('#videoDescription').html(videos[1].description);
+		});
+
+		$('#buttonThree').click(function(){
+			console.log("We clicked Button Three!");
+			$('#videoTitle').html(videos[2].title);
+			$('#video').html(videos[2].iframe);
+			$('#videoDescription').html(videos[2].description);
+		});
+
+	});
+
+</script>
+
+
+<div class="entirePage">
+	<div class="buttonContainer">
+		<div class="button" id="buttonOne">Video 1</div>
+		<div class="button" id="buttonTwo">Video 2</div>
+		<div class="button" id="buttonThree">Video 3</div>
+	</div>
+
+	<div class="videoContainer">
+		<div id="videoTitle">Select A Video to <b>Bake in the Bedroom with Meredith</b>...</div>
+		<div id="video"></div>
+		<div id="videoDescription"></div>
+	<div>
+</div>

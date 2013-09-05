@@ -1,0 +1,159 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<style>
+	.entirePage{
+		margin-top: 60px;
+		bottom: 0px;
+		background: url(http://www.vanishingtattoo.com/images/tattoo/cherry-blossoms.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	div{
+		color: rgb(140,13,63);
+		position: center;
+	}
+
+	/*BUTTON STYLING*/
+	.buttonContainer{
+		position: fixed;
+		margin-left: 20px;
+	}
+	.button{
+		color: rgb(140,13,63);
+		border-style: solid;
+		border-width: 4px;
+		border-color: rgb(76,132,26);
+		width: 60px;
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+	}
+	.button:hover{
+		background-color: rgb(200,234,173);
+	}
+
+	.center{
+		width: 100%;
+		text-align: center;
+		margin-top: -40px;
+	}
+
+	.centerSmallText{
+		width: 100%;
+		margin-top: 10px;
+		text-align: center;
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	#myID{
+		width: 200px;
+		background-color: green;
+		font-size: 12px;
+	}  
+
+	.matcha{
+		font-family: 'Quintessential', cursive;
+		color: orange;
+		font-size: 100px;
+		text-align: center;
+	}
+	.pushRight{
+		position: absolute;
+		right: 200px;
+	}
+
+	#matchaTitleImage{
+		margin-left: 500px;
+	}
+
+	.videoContainer{
+		position: relative;
+		width: 720px;
+		height: 480px;
+		margin-left: 150px;
+		margin-bottom: 100px;
+		}
+		#videoTitle{
+		text-align: center;
+	}
+
+</style>
+
+<div class="entirePage">
+	<img id="matchaTitleImage" src="../../../../images/matcha_word.png" alt="matcha" height="260px" width="560px">
+
+	<div class="buttonContainer">
+		<div class="button" id="buttonOne">Matcha History</div>
+		<div class="button" id="buttonTwo">Matcha Tools</div>
+		<div class="button" id="buttonThree">Makeing Matcha</div>
+	</div>
+
+	<div class="videoContainer">
+		<div id="videoTitle">LET'S BEGINS THE MATCHA JOURNEY...</div>
+		<div id="video"></div>
+		<div id="videoDescription"></div>
+	</div>
+
+	<div class="leaves"></div>
+</div>
+
+
+<script>
+	var videos = [
+        {
+          title: "Matcha History",
+          iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/R7-3gEbf72Q" frameborder="0" allowfullscreen></iframe>',
+          description: "This is the introduction of Matcha!"
+        },
+        {
+          title: "How To Make A Matcha",
+          iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/ldtRNqPbUJg" frameborder="0" allowfullscreen></iframe>',
+          description: "How to make the traditional Matcha!"
+        },
+        {
+          title: "Matcha Products",
+          iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/PDJZVqCUiu4" frameborder="0" allowfullscreen></iframe>',
+          description: "Manner of drinking traditional Matcha!"
+        }
+	];
+
+
+	$( document ).ready( function(){
+
+		//Call the primary function
+		//fallingLeaves();
+
+		$(window).resize(function() {
+			WinWidth = $(window).width();
+			WinHeight = $(window).height();
+			//console.log(WinWidth);
+			//console.log(WinHeight);
+		});
+
+        $('#buttonOne').click(function(){
+          console.log("We clicked Button One!");
+          $('#videoTitle').html(videos[0].title);
+          $('#video').html(videos[0].iframe);
+          $('#videoDescription').html(videos[0].description);
+        });
+ 
+        $('#buttonTwo').click(function(){
+          console.log("We clicked Button Two!");
+          $('#videoTitle').html(videos[1].title);
+          $('#video').html(videos[1].iframe);
+          $('#videoDescription').html(videos[1].description);
+        });
+ 
+        $('#buttonThree').click(function(){
+          console.log("We clicked Button Three!");
+          $('#videoTitle').html(videos[2].title);
+          $('#video').html(videos[2].iframe);
+          $('#videoDescription').html(videos[2].description);
+        });
+	});
+
+</script>

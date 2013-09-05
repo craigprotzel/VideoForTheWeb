@@ -1,0 +1,172 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ 
+<style type="text/css">
+	.entirePage{
+		margin-top: 60px;
+		font-family: Helvetica;
+	}
+ 
+	/*BUTTON STYLING*/
+	.buttonContainer{
+		position: fixed;
+		margin-left: 20px;
+		z-index: 100px;
+	}
+	.button{
+		color: black;
+		border-style: solid;
+		border-width: 4px;
+		border-color: black;
+		width: 60px;
+		text-align: center;
+		padding: 10px;
+		margin: 10px;
+	}
+	.button:hover{
+		background-color: rgb(195,135,0);
+	}
+
+	/*VIDEO STYLING*/
+	.videoContainer{
+		clear: left;
+		margin-top: 40px;
+		width: 100%;
+	}
+	#videoTitle{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		font-size: 24px;
+	}
+	#video{
+		margin: auto;
+		width: 640px;
+	}
+	#videoDescription{
+		margin-top: 20px;
+		text-align: center;
+		font-size: 16px;
+	}
+
+	#oasisBandImage{
+		display: none;
+		margin-top: 20px;
+		margin-left: 200px;
+	}
+
+	#guitarTabImage{
+		display: none;
+		margin-top: 20px;
+		margin-left: 200px;
+	}
+
+	#oasisMusicVideo{
+		display: none;
+	}
+
+	#buttonFour{
+		display: none;
+		width: 200px;
+	}
+</style>
+
+<script type="text/javascript">
+	var videos = [
+		{
+			title: "How To Play Wonder Wall",
+			iframe : '<iframe width="640" height="360" src="http://player.vimeo.com/video/72430309" frameborder="0" allowfullscreen></iframe>',
+			description: "This is the first of 3 videos. It's teaches you how to play the first part of Wonder Wall!"
+		},
+		{
+			title: "How To Play Wonder Wall",
+			iframe : '<iframe width="640" height="360" src="http://player.vimeo.com/video/72426794" frameborder="0" allowfullscreen></iframe>',
+			description: "This is the second of 3 videos. It's teaches you how to play the second part of Wonder Wall!"
+		},
+		{
+			title: "How To Play Wonder Wall",
+			iframe : '<iframe width="640" height="360" src="http://www.youtube.com/embed/ACyVfMHK4aw" frameborder="0" allowfullscreen></iframe>',
+			description: "This is the last of 3 videos. Here we throw it all together!"
+		}
+	];
+
+	$( document ).ready( function(){
+
+			//This is when button ONE is clicked
+		$('#buttonOne').click(function(){
+			console.log("We clicked Button One!");
+			$('#videoTitle').html(videos[0].title);
+			$('#video').html(videos[0].iframe);
+			$('#videoDescription').html(videos[0].description);
+
+			$('#oasisMusicVideo').hide();
+			$('#oasisBandImage').hide();
+			$('#guitarTabImage').show();
+
+			$('#buttonFour').hide();
+			$('#oasisMusicVideo').hide();
+		});
+
+			//This is when button TWO is clicked
+		$('#buttonTwo').click(function(){
+			console.log("We clicked Button Two!");
+			$('#videoTitle').html(videos[1].title);
+			$('#video').html(videos[1].iframe);
+			$('#videoDescription').html(videos[1].description);
+
+			$('#oasisMusicVideo').hide();
+			$('#guitarTabImage').hide();
+			$('#oasisBandImage').show();
+
+			$('#buttonFour').hide();
+			$('#oasisMusicVideo').hide();
+		});
+
+			//This is when button THREE is clicked
+		$('#buttonThree').click(function(){
+			console.log("We clicked Button Three!");
+			$('#videoTitle').html(videos[2].title);
+			$('#video').html(videos[2].iframe);
+			$('#videoDescription').html(videos[2].description);
+
+			$('#guitarTabImage').hide();
+			$('#oasisMusicVideo').hide();
+			$('#oasisBandImage').hide();
+
+			$('#buttonFour').show();
+		});
+
+			$('#buttonFour').click(function(){
+			console.log("We clicked Button Four!");
+		
+			$('#guitarTabImage').hide();
+			$('#oasisMusicVideo').hide();
+			$('#oasisBandImage').hide();
+			$('#buttonFour').show();
+
+			$('#oasisMusicVideo').show();
+		});
+	});
+
+</script>
+
+<div class="entirePage">
+	<div class="buttonContainer">
+		<div class="button" id="buttonOne">Video 1</div>
+		<div class="button" id="buttonTwo">Video 2</div>
+		<div class="button" id="buttonThree">Video 3</div>
+	</div>
+
+	<div class="videoContainer">
+		<div id="videoTitle">Select A Video To Learn Oasis' Wonder Wall!</div>
+		<div id="video"></div>
+		<div id="videoDescription"></div>
+	<div>
+
+	<div class="button" id="buttonFour">SHOW THE REAL VIDEO!</div>
+
+	<img id="guitarTabImage" width="420" height="315" src="http://2.bp.blogspot.com/_gEvpriQ-o2E/Rs14E0rD_JI/AAAAAAAAAAU/m-prKUIkwPs/s400/wonderwall.png"></img>
+
+	<iframe id="oasisMusicVideo" width="420" height="315" src="http://www.youtube.com/embed/kJFurFRvs8A" frameborder="0" allowfullscreen></iframe>
+
+	<img id="oasisBandImage" width="750" height="399" src="http://rocktransmission.com/wp-content/uploads/2013/08/oasis.jpg"></img>
+</div>
